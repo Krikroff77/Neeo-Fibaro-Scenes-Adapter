@@ -1,0 +1,37 @@
+{
+  "name": "neeo-fibaro-scenes-adapter",
+  "version": "0.2.0",
+  "description": "Controlling scenes from Fibaro Home Center Controller via NEEO remote",
+  "keywords": [
+    "fibaro",
+    "scenes",
+    "neeo"
+  ],
+  "author": {
+    "name": "Jean-Christophe Vermandé"
+  },
+  "repository": {
+    "url": "https://github.com/krikroff77/Neeo-Fibaro-Scenes-Adapter"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "neeo-sdk": "*",
+    "ip": "1.1.5"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "server:fibaro-scenes": "node lib/main.js"
+  }
+}
