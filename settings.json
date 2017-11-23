@@ -1,0 +1,19 @@
+{
+    "neeo": {
+        "brainIp" : "192.168.1.39",
+        "driverPort" : 6337
+    },
+    "settings": {
+        "loadHiddenScenes": false
+    },
+    "controllers": [
+        {
+            "login": "login@fibaro.com",
+            "password": "password"
+        },
+        {
+            "login": "login@fibaro.com",
+            "password": "password"
+        }
+      ]
+}
