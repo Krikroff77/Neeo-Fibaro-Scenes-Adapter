@@ -8,10 +8,14 @@
     },
     "controllers": [
         {
+            "serial": "HC2-000001",
+            "host": "192.168.1.200",
             "login": "login@fibaro.com",
             "password": "password"
         },
         {
+            "serial": "HCL-000001",
+            "host": "192.168.1.201",
             "login": "login@fibaro.com",
             "password": "password"
         }
