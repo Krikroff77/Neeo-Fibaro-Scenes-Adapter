@@ -1,5 +1,7 @@
 # Fibaro HomeCenter Scenes driver for NEEO Remote
 
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/krikroff77/Neeo-Fibaro-Scenes-Adapter/blob/master/LICENSE)
+
 To find out more about Fibaro controller checkout http://www.fibaro.com
 
 To find out more about NEEO, the Brain and "The Thinking Remote" checkout https://neeo.com/.
