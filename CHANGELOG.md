@@ -1,6 +1,9 @@
 Changelog
 =========
 
+##### 0.2.1
+- Minor updates
+
 ##### 0.2.0
 - First public release
 - Added the ability to load only scenes declared as visible in the Home Center
