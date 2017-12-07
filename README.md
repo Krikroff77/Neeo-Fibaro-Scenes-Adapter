@@ -26,7 +26,7 @@ Platform-specific install note available from [`INSTALL.md`](https://github.com/
 Example usage
 -------------
 
-Edit config.json and update neeo, settings and controllers sections
+Edit settings.json and update neeo, settings and controllers sections
 
 ### NEEO:
 
@@ -47,7 +47,7 @@ __You can add as many controller you want here.__
 -   login is the login used to log in the home center
 -   password is the password used to log in the home center
 
-Example "config.json"
+Example "settings.json"
 
 ```json
 {

@@ -1,6 +1,6 @@
 {
   "name": "neeo-fibaro-scenes-adapter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Controlling scenes from Fibaro Home Center Controller via NEEO remote",
   "keywords": [
     "fibaro",
@@ -20,18 +20,19 @@
   ],
   "private": false,
   "dependencies": {
-    "bluebird": "^3.5.1",
     "neeo-sdk": "*",
     "ip": "1.1.5"
   },
   "devDependencies": {
-    "jshint": "^2.9.4"
+    "jshint": "^2.9.4",
+    "mocha": "^3.5.0"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "main": "lib/main.js",
   "scripts": {
+    "test": "mocha \"test/**/*.js\"",
     "server:fibaro-scenes": "node lib/main.js"
   }
 }

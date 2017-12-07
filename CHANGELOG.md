@@ -1,6 +1,10 @@
 Changelog
 =========
 
+##### 0.2.2
+- Add Travis CI support
+- Remove bluebird dependency
+
 ##### 0.2.1
 - Minor updates
 
